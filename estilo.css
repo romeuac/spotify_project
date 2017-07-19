@@ -12,14 +12,15 @@ html, body, .capa{
     height: 100%;
 }
 body{
-    border: 1px solid red;
     background: url('imagens/capa.png'),
                 url('imagens/ruido.png'),
                 linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';*/
     font-family: 'Helvetica', 'Arial', 'sans-serif';
+    overflow: auto;
     overflow-x: hidden;
+
 }
 /*  ----- NAVEGATION BAR -----  */
 .img-logo{
@@ -134,7 +135,6 @@ nav.navbar-transparente{
     transform: rotate(30deg);
     -ms-transform: rotate(30deg); /*IE 9*/
     -webkit-transform: rotate(30deg); /*Chome, Safari e Opera*/
-    padding: 0px 0 0 80px;
     
 }
 
@@ -170,4 +170,53 @@ h3{
     font-size: 2em;
     font-weight: 700;
     letter-spacing: -0.04em;
+}
+
+/*=============== Media Queries =========== */
+/* xs less than 767px */
+@media screen and (max-width: 767px){
+    .button-basic{
+        margin: 10px 15px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    .rotacionar{
+        padding: 60px 0 0 80px;
+    }
+}
+
+/* xs more than 768px */
+@media screen and (min-width: 768px){
+    .button-basic{
+        margin: 10px 15px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    .rotacionar{
+        padding: 60px 0 0 80px;
+    }
+}
+
+/* md less than 992px */
+@media screen and (min-width: 992px){
+    h1{
+        font-size: 70px;
+    }
+
+    .rotacionar{
+        padding: 0px 0 0 80px;
+    }
+}
+
+/* lg less than 1200px */
+@media screen and (min-width: 1200px){
+    h1{
+        font-size: 100px;
+    }
 }
