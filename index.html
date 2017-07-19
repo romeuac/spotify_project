@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Música para todos - Spotify</title>
+    <link rel="icon" href="imagens/favicon.png">
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +21,54 @@
   </head>
   <body>
 
-    
+    <nav class="navbar navbar-fixed-top navbar-inverse         navbar-transparente">
+      <div class="container">
+        
+
+        <!-- HEADER -->
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand"> 
+            <span class="img-logo">Spotify</span> 
+          </a>
+          
+          <!--Toggle Button-->
+          <!--se trata do botao para o menu-->
+          <button type="button" class="navbar-toggle              collapsed" data-toggle="collapse"               data-target="#barra-nav">
+            <span class="sr-only">Alternar navegação</span>  
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+          
+
+        
+        <!--NAVBAR -->
+        <!-- o collapse eh para sumir em visoes menores -->
+        <div class="collapse navbar-collapse navbar-right"
+             id="barra-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href="#"> Premium</li> </a>
+            <li> <a href="#"> Ajudar</li> </a>
+            <li> <a href="#"> Baixar</li> </a>
+            <li class="divisor" role="separador"></li>
+            <li> <a href="#"> Inscrever-se</li> </a>
+            <li> <a href="#"> Entrar</li> </a>
+          </ul>
+        </div>
+
+      </div> <!-- /container -->
+    </nav> <!-- /nav -->
+
+    <!-- MAIN PAGE -->
+    <div class="capa">
+      <div class="texto-capa">
+        <h1>Música para todos</h1>
+        <a href="index.html" class="btn button-basic button-Purple btn-lg">Aproveite o Spotify Free</a>
+        <a href="index.html" class="btn button-basic button-white btn-lg">Obter o Spotify Premium</a>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
