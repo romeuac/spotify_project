@@ -48,12 +48,17 @@ nav.navbar-transparente{
     background: white;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a , footer .nav a {
     color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover{
+.navbar-inverse .navbar-nav>li>a:hover , footer .nav a:hover{
     color: #9bf0e1;
+    background: none;
+}
+
+.social-network{
+    float: right;
 }
 
 
@@ -131,6 +136,19 @@ nav.navbar-transparente{
     -webkit-transform: rotate(30deg); /*Chome, Safari e Opera*/
     padding: 0px 0 0 80px;
     
+}
+
+/*  ----- Footer -----  */
+footer{
+    background: black;
+    position: relative;
+    padding: 50px 0 20px 0;
+}
+
+#rodape h4{
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 
