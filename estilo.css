@@ -19,7 +19,7 @@ body{
     background-attachment: fixed;
     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';*/
     font-family: 'Helvetica', 'Arial', 'sans-serif';
-
+    overflow-x: hidden;
 }
 /*  ----- NAVEGATION BAR -----  */
 .img-logo{
@@ -111,10 +111,28 @@ nav.navbar-transparente{
     padding: 10px 0px;
 }
 
-
-#services-section h2, h3{
+#services-section h2, #services-section h3{
     color: #7c25f8;
 }
+
+/*  ----- Resources section -----  */
+#resources-section{
+    padding: 20px 0px;;
+    color: white;
+}
+
+#resources-section h3{
+    color: #9bf0e1;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /*IE 9*/
+    -webkit-transform: rotate(30deg); /*Chome, Safari e Opera*/
+    padding: 0px 0 0 80px;
+    
+}
+
 
  /*=============== Typography =========== */
 h1{
